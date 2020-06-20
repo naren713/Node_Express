@@ -1,0 +1,21 @@
+GET http://localhost:3000
+
+###
+
+POST http://localhost:3000
+Content-Type: application/json
+
+{"title":"Buys Households"}
+
+###
+
+PUT http://localhost:3000/6
+Content-Type: application/json
+
+{"title":"Buy Crystals"}
+
+###
+
+DELETE http://localhost:3000/6
+Content-Type: application/json
+
